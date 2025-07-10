@@ -1,0 +1,60 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "E:/Espressif/frameworks/esp-idf-v5.4.1/",
+  "idf.pythonInstallPath": "E:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.portWin": "COM6",
+  "idf.toolsPathWin": "E:\\Espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "E:\\Espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=E:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=${workspaceFolder}\\build"
+  ],
+  "files.associations": {
+    "atomic": "cpp",
+    "cmath": "cpp",
+    "unordered_map": "cpp",
+    "random": "cpp",
+    "format": "cpp",
+    "functional": "cpp",
+    "limits": "cpp",
+    "optional": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "variant": "cpp",
+    "compare": "cpp",
+    "numeric": "cpp",
+    "ratio": "cpp",
+    "array": "cpp",
+    "bit": "cpp",
+    "charconv": "cpp",
+    "concepts": "cpp",
+    "deque": "cpp",
+    "string": "cpp",
+    "vector": "cpp",
+    "memory_resource": "cpp",
+    "string_view": "cpp",
+    "algorithm": "cpp",
+    "ostream": "cpp",
+    "span": "cpp",
+    "streambuf": "cpp",
+    "system_error": "cpp",
+    "text_encoding": "cpp",
+    "*.inc": "cpp",
+    "bitset": "cpp",
+    "istream": "cpp",
+    "regex": "cpp",
+    "mutex": "cpp",
+    "chrono": "cpp",
+    "complex": "cpp",
+    "iostream": "cpp",
+    "nrf24l01.h": "c",
+    "task.h": "c"
+  }
+}
